@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\styleSmart.css">
+    <script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row" style="width: 100%; ">
+            <div class="col-3">
+                <img class="diavgeia-img" src="images/diavgeia.png" alt="diavgeia">
+            </div>
+            <div class="col-9">
+                <h1 class="title" >
+                    Αναζήτηση Πράξεων
+                </h1>
+            </div>
+
+
+
+
+            
+            <div class="col-11" id="second_row" style="border: 1px solid #babfc7 !important;">
+                <form action="" class="inputs">
+                    <div class="row"  >
+                    <div class="col-sm-3" style="margin-left: -13%;"><input type="text" id="fid" placeholder="Κωδικός Φορέα"></div> 
+                    <div class="col-sm-3"style="margin-left: 9%;"> <input type="date" id="start" name="trip-start" placeholder="Από" min="2014-01-01" max="2021-12-31"></div>
+                    <div class="col-sm-3" style="margin-left: 8%;"> <input  type="date" id="end" name="trip-end" placeholder="Έως" min="2014-01-01" max="2021-12-31"></div>
+                    <div class="col-sm-2"style="margin-left: 4%;" ><input  type="submit" id="submit" class="search" value="Αναζήτηση"></div>
+                </div>
+                </form>
+            </div>
+
+
+
+            
+            <div class="col-12">
+                <div id="myGrid" style="height: 1500%; width:94%;" class="ag-theme-alpine"></div>
+            </div>
+            </div>
+      
+    </div>
+
+
+
+</body>
+<script src="grid.js"></script>
+
+</html>

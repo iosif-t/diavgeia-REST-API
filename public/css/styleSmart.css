@@ -1,0 +1,54 @@
+@media only screen and  (max-width: 700px) {
+.row{
+    margin: 0% !important;
+}
+.title{
+    font-size: 90%;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.diavgeia-img{
+    width: 180%;
+    margin-left: 10%;
+    padding-bottom: 15%;
+   
+}
+#fid{
+    padding:0%;
+    margin-left:30%;
+    border-color:gray;
+}
+#start{
+    padding: 0%;
+    width: 58%;
+    position: absolute;
+    top:30%;
+    left: -15%;
+    border-color:gray;
+}
+#second_row{
+    
+    background-color: #f2f2f2;
+       
+      
+}
+#end{
+    padding: 0%;
+    width: 58%;
+    margin-left: 50%;
+    border-color:gray;
+}
+#submit{
+    padding: 0%;
+    background-color: #ffffff;
+    border-color:#909090;
+    border-radius: 7%;
+    margin-left: 25%;
+}
+#myGrid{
+    padding-top: 5%;
+    width: 100% !important;
+    margin-left:-4.5%;
+}
+}

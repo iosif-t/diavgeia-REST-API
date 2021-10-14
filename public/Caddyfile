@@ -1,0 +1,11 @@
+(cors) {
+    @origin{args.0} header Origin {args.0}
+    header @origin{args.0} Access-Control-Allow-Origin "{args.0}"
+}
+
+:8080 {
+    root * C:\Users\iosif\Desktop\diavgeia\public
+    file_server 
+    import cors :5500
+    import cors *
+}
